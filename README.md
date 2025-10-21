@@ -10,7 +10,6 @@ Group Members:
 
 👤 Ravikant Sharma (2024AIB1013)
 
-👤 Name 3
 
 ⚙️ Features
 
