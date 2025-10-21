@@ -21,27 +21,34 @@ Supports RISC-V 64-bit base ISA instructions (RV64I)
 Handles label resolution and instruction addressing
 
 Produces detailed machine code output format:
+
 <address> <machine_code> , <assembly_instruction> # <opcode-func3-func7-rd-rs1-rs2-immediate>
 
 Separate handling for .text and .data segments
 
 Basic support for assembler directives:
+
 .text, .data, .byte, .half, .word, .dword, .asciz
 
 🧩 Supported Instructions
 R-Format
+
 add, addw, and, or, sll, slt, sra, srl, sub, subw, xor, mul, mulw, div, divw, rem, remw
 
 I-Format
+
 addi, addiw, andi, ori, lb, ld, lh, lw, jalr
 
 S-Format
+
 sb, sw, sh, sd
 
 SB-Format
+
 beq, bne, bge, blt
 
 U-Format
+
 auipc, lui
 
 UJ-Format
